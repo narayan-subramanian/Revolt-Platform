@@ -1,9 +1,10 @@
-pragma solidity ^0.6.0; // compiled with 0.6.12
+//SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.5.0 <=0.9.0;
 
 
 
 
-contract RTOToken {
+contract Rent{
     using SafeMath for uint256;
     
 	address public deployer;
